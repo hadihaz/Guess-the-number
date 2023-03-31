@@ -1,0 +1,59 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 60px;
+
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.number {
+    font-size: 50px;
+    margin-right: 20px;
+    padding: 0px 20px;
+    border: black;
+    border-radius: 5px;
+    background-color: #d7d7d7;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #acaaaa;
+    cursor: pointer;
+}
+
+.submit {
+    padding: 10px 63px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.clear {
+    background-color: #1488e8;
+    color: white;
+}
